@@ -10,7 +10,7 @@ body,html{
     top: 0;
   }
   
-  .navbar a {
+  .navbar a, img {
     float: left;
     display: block;
     color: white;
