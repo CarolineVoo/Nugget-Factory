@@ -56,6 +56,10 @@ body,html{
     text-align: center;
 }
 
+#nugIMG img{
+  width: 300px;
+  height: auto;
+}
 
 
   /*
