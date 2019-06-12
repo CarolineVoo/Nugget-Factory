@@ -9,7 +9,7 @@
     <div class="container">
         
        <div class="navbar">
-            <a id="navlogo" href="./index.html" >
+            <a href="./index.html" >
                 Home
             </a>
             <a href="./play.html">Play</a>
@@ -23,30 +23,28 @@
 
             <div class="main">
                 <h1>Chicken Nuggets delivery from Nugget Factury! </h1>
-                <p>
-                    Chicken Nuggets Delivery from Local Restaurants
- 
-                    Chicken nuggets are breaded and fried (or baked) chicken meat formed into what's known as a nugget shape. Anatomically, chooks don't have "nuggets" per se, so the parts used for chicken nuggets may come from light or dark meat. Sufficient processing will well hide the exact source of chicken nugget meat--but don't worry: teams of food scientists have chicken nugget creation down to an art. Today chicken nuggets are one of the most addicting foods on Earth. Go ahead and try to escape their allure.
- 
-                    What Takeaway Chicken Nuggets Can I Order Online?
-                       
-                </p>
+
+                <div class="selectform">
+                    <!------------------SELECT BOX NUGGET-------------------------------------->
+                    <strong> Type of Nuggets:  </strong>
+                    <select id = "nuggetType">
+                        <option disabled selected value>- velg -</option>
+                        <option value="crispyNug.png">Crispy</option>
+                        <option value="softNug.png">Soft</option>
+                        <option value="creamyNug.png">creamy</option>
+                        <option value="cheesyNug.png">cheezy</option>
+                        <option value="wettyNug.png">wetty</option>
+                    </select>
+                    <div id="nugIMG">
+                        <img id="showNugget" src="">
+                    </div>
+
+                </div>
+
             </div>
 
-            <!------------------SELECT BOX NUGGET-------------------------------------->
-            <strong> Type of Nuggets:  </strong>
-            <select id = "nuggetType">
-                <option disabled selected value>- velg -</option>
-                <option value="crispyNug.png">Crispy</option>
-                <option value="softNug.png">Soft</option>
-                <option value="creamyNug.png">creamy</option>
-                <option value="cheesyNug.png">cheezy</option>
-                <option value="wettyNug.png">wetty</option>
-            </select>
-            <div id="nugIMG">
-                <img id="showNugget" src="">
-            </div>
 
+           
         </div>
         <div class="footer">
             <h2>Nugget factury@2019</h2>
